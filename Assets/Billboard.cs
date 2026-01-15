@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Billboard : MonoBehaviour
+{
+    private Transform mainCameraTransform;
+
+    void Start()
+    {
+        // Cache the main camera transform for better performance
+        mainCameraTransform = Camera.main.transform;
+    }
+
+    void LateUpdate()
+    {
+        // Make the object face the same direction as the camera
+        transform.LookAt(transform.position + mainCameraTransform.rotation * Vector3.forward,
+                         mainCameraTransform.rotation * Vector3.up);
+    }
+}

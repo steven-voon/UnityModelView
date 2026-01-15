@@ -1,0 +1,26 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl sulawesi_kris_pamor_weapon_sumatra_weapon_ae66fa6602eece6a74b2dff70e2d4343
+Ka 0.000000 0.000000 0.000000
+Kd 0.070588 0.066667 0.070588
+Ks 0.330000 0.330000 0.330000
+map_Kd Keris/sulawesi_kris_pamor_weapon_sumatra_weapon_ae66fa6602eece6a74b2dff70e2d4343.png
+
+newmtl M_20200126904_44_04_PM
+Ka 0.000000 0.000000 0.000000
+Kd 0.941176 0.941176 0.933333
+Ks 0.330000 0.330000 0.330000
+map_Kd Keris/M_20200126904_44_04_PM.png
+
+newmtl Color_D08
+Ka 0.000000 0.000000 0.000000
+Kd 0.117647 0.117647 0.176471
+Ks 0.330000 0.330000 0.330000
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
