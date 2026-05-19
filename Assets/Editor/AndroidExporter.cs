@@ -4,14 +4,63 @@ using UnityEngine;
 
 public class AndroidExporter
 {
+    [MenuItem("Build/Export Android Only")]
+    public static void ExportAndroidOnly()
+    {
+        string exportPath = System.Environment.GetEnvironmentVariable("UNITY_ANDROID_EXPORT_PATH")
+            ?? Path.GetFullPath("../builds/android");
+
+        if (Directory.Exists(exportPath))
+            Directory.Delete(exportPath, true);
+
+        Directory.CreateDirectory(exportPath);
+
+        EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
+        EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
+
+        PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
+        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARMv7 | AndroidArchitecture.ARM64;
+
+        var scenes = new System.Collections.Generic.List<string>();
+        foreach (var scene in EditorBuildSettings.scenes)
+            if (scene.enabled) scenes.Add(scene.path);
+
+        if (scenes.Count == 0)
+            foreach (var guid in AssetDatabase.FindAssets("t:Scene", new[] { "Assets" }))
+                scenes.Add(AssetDatabase.GUIDToAssetPath(guid));
+
+        Debug.Log($"Exporting {scenes.Count} scene(s) to {exportPath}");
+
+        var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
+        {
+            scenes = scenes.ToArray(),
+            locationPathName = exportPath,
+            target = BuildTarget.Android,
+            options = BuildOptions.AcceptExternalModificationsToPlayer
+        });
+
+        if (report.summary.result != UnityEditor.Build.Reporting.BuildResult.Succeeded)
+        {
+            Debug.LogError($"Android export failed: {report.summary.result}");
+            if (Application.isBatchMode) EditorApplication.Exit(1);
+            return;
+        }
+
+        Debug.Log($"Export succeeded. Output at: {exportPath}");
+    }
+
     [MenuItem("Build/Export Android to React Native")]
     public static void ExportAndroidProject()
     {
         string exportPath = System.Environment.GetEnvironmentVariable("UNITY_ANDROID_EXPORT_PATH")
             ?? Path.GetFullPath("../builds/android");
 
-        string rnAndroidPath = System.Environment.GetEnvironmentVariable("UNITY_RN_PROJECT_PATH")
-            ?? "/Users/j/Dev/sultan-azlan-shah-interactives/14.1-weapons/android";
+        string rnAndroidPath = System.Environment.GetEnvironmentVariable("UNITY_RN_PROJECT_PATH");
+        if (string.IsNullOrEmpty(rnAndroidPath))
+        {
+            Debug.LogError("UNITY_RN_PROJECT_PATH environment variable is not set. Set it to the android/ folder of your React Native project. See docs/EXPORT.md for instructions.");
+            return;
+        }
 
         // Delete existing export if present
         if (Directory.Exists(exportPath))
