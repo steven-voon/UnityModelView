@@ -5,12 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SAS-BaliPanjang-Archived.unity
-    guid: 67f2aadd26ca78240bc2b290f32b6ac0
   - enabled: 1
-    path: Assets/Scenes/SAS-Empty.unity
-    guid: 1276e4bed87fa514a961fa0b0b9f2921
+    path: Assets/Scenes/SAS-BaliPanjang.unity
+    guid: 2824d180733df6a469f5bbde08127595
+  - enabled: 1
+    path: Assets/Scenes/SAS-PedangNaga.unity
+    guid: c4dbab171b670794297792ca593d97f0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0
