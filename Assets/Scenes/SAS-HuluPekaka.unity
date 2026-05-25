@@ -247,6 +247,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 330585546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &280685320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
+  m_PrefabInstance: {fileID: 4936975450251953781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &285869226
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,7 +2371,7 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2845617344659005531}
+  - {fileID: 280685320}
   - {fileID: 1122700640}
   - {fileID: 414818763}
   m_Father: {fileID: 0}
@@ -2473,7 +2478,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2845617344659005530
+--- !u!1001 &4936975450251953781
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2481,68 +2486,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1472928644}
     m_Modifications:
-    - target: {fileID: 1462977636650683907, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 6436923679020912883, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
+      propertyPath: m_Name
+      value: New-Hulu Pekak-V3
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.39
+      value: 23.44
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: 0.9527886
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.206099
+      value: -0.69
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.43675694
+      value: 0.95798254
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.8995796
+      value: 0.28682655
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 128.206
+      value: 33.336
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
+    - target: {fileID: 7572606635722823131, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6187833436991909219, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818860219042334713, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
-      propertyPath: m_Name
-      value: Hulu-Pekaka-V2_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
---- !u!4 &2845617344659005531 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5360006513555296250, guid: 8026aa00fff0c664a9e4905641644715, type: 3}
-  m_PrefabInstance: {fileID: 2845617344659005530}
-  m_PrefabAsset: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 5a28de47c8846c3439732083423a4d4b, type: 3}
 --- !u!1001 &6451767158995112056
 PrefabInstance:
   m_ObjectHideFlags: 0
