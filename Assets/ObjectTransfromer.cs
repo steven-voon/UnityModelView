@@ -59,7 +59,7 @@ public class ObjectTransfromer : MonoBehaviour
 
     void HandleInput()
     {
-        // 1. MOBILE TOUCH SUPPORT
+#if !UNITY_EDITOR
         if (Input.touchCount > 0)
         {
             idleTimer = 0;
@@ -83,36 +83,36 @@ public class ObjectTransfromer : MonoBehaviour
                 if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) isInteracting = false;
             }
         }
-        // 2. PC MOUSE SUPPORT (Only runs if no touches are detected)
-        else
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                isInteracting = true;
-                lastMousePosition = Input.mousePosition;
-            }
-            else if (Input.GetMouseButton(0))
-            {
-                idleTimer = 0;
-                Vector3 delta = Input.mousePosition - lastMousePosition;
-                RotateObject(delta.x * mouseSensitivity, delta.y * mouseSensitivity);
-                lastMousePosition = Input.mousePosition;
-            }
-            else if (Input.GetMouseButtonUp(0))
-            {
-                isInteracting = false;
-            }
+#endif
 
-            float scroll = Input.GetAxis("Mouse ScrollWheel");
-            if (scroll != 0)
-            {
-                currentScaleFactor = Mathf.Clamp01(currentScaleFactor + scroll);
-                ScaleObject(currentScaleFactor);
-            }
+#if UNITY_EDITOR
+        if (Input.GetMouseButtonDown(0))
+        {
+            isInteracting = true;
+            lastMousePosition = Input.mousePosition;
         }
+        else if (Input.GetMouseButton(0))
+        {
+            idleTimer = 0;
+            Vector3 delta = Input.mousePosition - lastMousePosition;
+            RotateObject(delta.x * mouseSensitivity, delta.y * mouseSensitivity);
+            lastMousePosition = Input.mousePosition;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            isInteracting = false;
+        }
+
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0)
+        {
+            currentScaleFactor = Mathf.Clamp01(currentScaleFactor + scroll);
+            ScaleObject(currentScaleFactor);
+        }
+#endif
     }
 
-    void RotateObject(float xDelta, float yDelta)
+    private void RotateObject(float xDelta, float yDelta)
     {
         // Y-axis swipe/mouse moves the object around X-axis
         // X-axis swipe/mouse moves the object around Y-axis
@@ -134,7 +134,7 @@ public class ObjectTransfromer : MonoBehaviour
     }
 
 
-    void HandlePinch()
+    private void HandlePinch()
     {
         Touch touchZero = Input.GetTouch(0);
         Touch touchOne = Input.GetTouch(1);
