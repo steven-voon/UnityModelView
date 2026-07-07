@@ -185,16 +185,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_text
-      value: The Serpent
+      value: Weapon Anatomy Name
       objectReference: {fileID: 0}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontSize
-      value: 60
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 9de533eff8c77834398cb16d00338a50, type: 2}
+      objectReference: {fileID: 11400000, guid: 78499beca6383114c877ca38cea2f9ba, type: 2}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontColor.b
       value: 0.7647059
@@ -209,12 +209,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontSizeBase
-      value: 60
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7692100873893289955, guid: 9de533eff8c77834398cb16d00338a50, type: 2}
+      objectReference: {fileID: -7112576173920883342, guid: 78499beca6383114c877ca38cea2f9ba, type: 2}
     - target: {fileID: 3266216625609143374, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_characterSpacing
       value: -2
@@ -246,6 +246,22 @@ PrefabInstance:
     - target: {fileID: 5238263264277279509, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403230791518804436, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2239
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403230791518804436, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2239
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403230791518804436, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2239
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403230791518804436, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 5423567095424121660, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_Layer
@@ -285,15 +301,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7121630907809373752, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_text
-      value: Indonesian traditions portray the naga as the ruler of the underworld
-        and bringer of fertility, adorning gamelan musical instruments, appearing
-        in wayang puppetry plays, and even decorating everyday objects such as the
-        betel nut cutter. The serpent often appears with a pointed crown atop its
-        head, signifying its special position.
+      value: Weapon Anatomy Description
       objectReference: {fileID: 0}
     - target: {fileID: 7121630907809373752, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 7121630907809373752, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontAsset
@@ -313,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7121630907809373752, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_fontSizeBase
-      value: 30
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 7121630907809373752, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_sharedMaterial
@@ -362,6 +374,26 @@ PrefabInstance:
     - target: {fileID: 9094062389580561149, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124247188814612308, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 275
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124247188814612308, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -347.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124247188814612308, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124247188814612308, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124247188814612308, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4977673814229089413, guid: 4395306e5dcd4a749a31ec53a8235f05, type: 3}

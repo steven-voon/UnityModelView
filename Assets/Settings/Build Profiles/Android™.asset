@@ -20,7 +20,7 @@ MonoBehaviour:
     rid: 1293160125405331650
   m_OverrideGlobalSceneList: 1
   m_Scenes:
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/SAS-BaliPanjang.unity
     m_guid: 2824d180733df6a469f5bbde08127595
   - m_enabled: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
   - m_enabled: 0
     m_path: Assets/Scenes/SAS-Mindanao.unity
     m_guid: 8bcf7249d185bfc418c98fa1f48f2e1f
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Scenes/SAS-PedangSiam.unity
     m_guid: a0a5d9433674d3d4db51556c832807ab
   m_HasScriptingDefines: 0
@@ -64,10 +64,10 @@ MonoBehaviour:
         m_AdaptivePerformanceEnabled: 0
         m_BuildSubtarget: 0
         m_BuildSystem: 1
-        m_ExportAsGoogleAndroidProject: 1
+        m_ExportAsGoogleAndroidProject: 0
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
-        m_CurrentDeploymentTargetId: R5CRC3DF4HZ
+        m_CurrentDeploymentTargetId: __builtin__target_default
         m_BuildType: 2
         m_LinkTimeOptimization: 0
         m_BuildAppBundle: 0
