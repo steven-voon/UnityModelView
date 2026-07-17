@@ -25,6 +25,7 @@ public class ObjectTransfromer : MonoBehaviour
     [Header("Interaction Settings")]
     [SerializeField] private float mouseSensitivity = 0.5f;
     [SerializeField] private float touchSensitivity = 15f;
+    [SerializeField] private bool isRotateOnStart = false;
 
     private float idleTimer;
     private bool isInteracting = false;
@@ -62,6 +63,15 @@ public class ObjectTransfromer : MonoBehaviour
         previousScaleFactor = currentScaleFactor;
 
         cachedDpiFactor = (Screen.dpi > 0 ? Screen.dpi : 100f);
+    }
+
+    private void OnEnable()
+    {
+        if (isRotateOnStart)
+        {
+            isAutoRotating = true;
+            idleTimer = idleWaitTime + 1;
+        }
     }
 
     private void Update()
@@ -109,7 +119,7 @@ public class ObjectTransfromer : MonoBehaviour
             {
                 if (isAutoRotating)
                 {
-                    transform.Rotate(Vector3.up * autoRotationSpeed.y * Time.deltaTime, Space.World);
+                    transform.Rotate(Vector3.right * autoRotationSpeed.y * Time.deltaTime, Space.Self);
                 }
                 else
                 {
@@ -120,7 +130,7 @@ public class ObjectTransfromer : MonoBehaviour
                     if (positionHome && scaleHome && rotationHome)
                     {
                         isAutoRotating = true;
-                        transform.Rotate(Vector3.up * autoRotationSpeed.y * Time.deltaTime, Space.World);
+                        transform.Rotate(Vector3.right * autoRotationSpeed.y * Time.deltaTime, Space.Self);
                     }
                     else
                     {

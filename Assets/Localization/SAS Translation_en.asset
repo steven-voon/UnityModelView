@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SAS Translation_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c7ddc960816fe0640a5beb89d4b167fe, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1268832251904
+    m_Localized: The beak and casque are made of silver, standing out against the
+      polished wood finish of the rest of the wooden hilt. The base of the hilt is
+      called buah pinang (betel nut), encircled by a golden pendokok or ferrule to
+      connect the hilt to the blade. Such precious metals used in the making of the
+      hilt and sheath imply that the keris is intended for ceremonial purposes rather
+      than for duelling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268870000640
+    m_Localized: 'The elephant trunk design (akut belalai gajah) is commonly found
+      on keris throughout the Malay Peninsula. It carries both aesthetic and functional
+      value, as the sharpened edges above and below the trunk can be used to lacerate
+      an opponent. Shorter keris are wielded in close-quarters combat, with every
+      detail on the blade developed to give the weapon owner an advantage. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194944
+    m_Localized: Indonesian traditions portray the naga as the ruler of the underworld
+      and bringer of fertility, adorning gamelan musical instruments, appearing in
+      wayang puppetry plays, and even decorating everyday objects such as the betel
+      nut cutter. The serpent often appears with a pointed crown atop its head, signifying
+      its special position.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194945
+    m_Localized: "Historically, the number of lok in a keris represented the status
+      of the weapon owner in society and differentiated between commoners, warriors,
+      and rulers. To count the lok, start with the first bend on the opposite side
+      of the naga\u2019s head. Can you see how many lok there are on this keris?
+      Remember: it should be an odd number!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194946
+    m_Localized: Batara Bayu is recognised by his large grin, his bejewelled headdress,
+      and the vessel that he carries in his right hand. The multicoloured gemstones
+      adorning the deity serve to elevate his position and match the stones decorating
+      the full length of the sheath.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194947
+    m_Localized: The sampir or the upper part of the sheath most likely features
+      Bhoma with his fierce face, bulging eyes, and gaping mouth. Similar to the
+      Kirtimukha motif in South Indian temple architecture, Bhoma is traditionally
+      depicted above Balinese Hindu temple entrances for protection and purification.
+      The use of ivory for the sampir makes this elaborate scene showcasing multiple
+      figures even more prominent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194948
+    m_Localized: "The sundang hilt is traditionally made of hardwood and wrapped
+      in natural fibres such as jute. This hilt, with its metal plating, elongated
+      length, and large decorative cockatoo pommel, indicates the original owner
+      likely belonged to the upper class. The angle of the hilt always conforms to
+      the blade, enabling its wielder to maximise the blade\u2019s potential with
+      a smooth arc."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194949
+    m_Localized: "This sword hilt is covered with white same-gawa (stingray skin
+      that has been dried and treated) and bound with ito (braided cords), creating
+      the signature pattern of openings that reveal the rayskin underneath. This
+      traditional double wrapping provides a rough pattern for the user\u2019s hand,
+      ensuring a strong, non-slippery grip."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194950
+    m_Localized: The menuki or hilt ornaments under the ito wrap match the pattern
+      of the sarute (buckle), fuchi (ferrule), and tsuba (sword guard). These sword
+      fittings display the cherry blossom, a national symbol of Japan that was eventually
+      used by the military as an insignia on their weapons. The menuki under the
+      binding also features a family crest of three daimyo oak leaves within a circle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108365877248
+    m_Localized: Hilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625984
+    m_Localized: The beak and casque are made of silver, standing out against the
+      polished wood finish of the rest of the wooden hilt. The base of the hilt is
+      called buah pinang (betel nut), encircled by a golden pendokok or ferrule to
+      connect the hilt to the blade. Such precious metals used in the making of the
+      hilt and sheath imply that the keris is intended for ceremonial purposes rather
+      than for duelling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625985
+    m_Localized: 'Elephant Trunk '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625986
+    m_Localized: 'The elephant trunk design (akut belalai gajah) is commonly found
+      on keris throughout the Malay Peninsula. It carries both aesthetic and functional
+      value, as the sharpened edges above and below the trunk can be used to lacerate
+      an opponent. Shorter keris are wielded in close-quarters combat, with every
+      detail on the blade developed to give the weapon owner an advantage. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625987
+    m_Localized: Akut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625988
+    m_Localized: Indonesian traditions portray the naga as the ruler of the underworld
+      and bringer of fertility, adorning gamelan musical instruments, appearing in
+      wayang puppetry plays, and even decorating everyday objects such as the betel
+      nut cutter. The serpent often appears with a pointed crown atop its head, signifying
+      its special position.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625989
+    m_Localized: Lok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625990
+    m_Localized: "Historically, the number of lok in a keris represented the status
+      of the weapon owner in society and differentiated between commoners, warriors,
+      and rulers. To count the lok, start with the first bend on the opposite side
+      of the naga\u2019s head. Can you see how many lok there are on this keris?
+      Remember: it should be an odd number!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625991
+    m_Localized: Hilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625992
+    m_Localized: Batara Bayu is recognised by his large grin, his bejewelled headdress,
+      and the vessel that he carries in his right hand. The multicoloured gemstones
+      adorning the deity serve to elevate his position and match the stones decorating
+      the full length of the sheath.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625993
+    m_Localized: Sampir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625994
+    m_Localized: The sampir or the upper part of the sheath most likely features
+      Bhoma with his fierce face, bulging eyes, and gaping mouth. Similar to the
+      Kirtimukha motif in South Indian temple architecture, Bhoma is traditionally
+      depicted above Balinese Hindu temple entrances for protection and purification.
+      The use of ivory for the sampir makes this elaborate scene showcasing multiple
+      figures even more prominent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625995
+    m_Localized: Hilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625996
+    m_Localized: "The sundang hilt is traditionally made of hardwood and wrapped
+      in natural fibres such as jute. This hilt, with its metal plating, elongated
+      length, and large decorative cockatoo pommel, indicates the original owner
+      likely belonged to the upper class. The angle of the hilt always conforms to
+      the blade, enabling its wielder to maximise the blade\u2019s potential with
+      a smooth arc."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625997
+    m_Localized: Hilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625998
+    m_Localized: "This sword hilt is covered with white same-gawa (stingray skin
+      that has been dried and treated) and bound with ito (braided cords), creating
+      the signature pattern of openings that reveal the rayskin underneath. This
+      traditional double wrapping provides a rough pattern for the user\u2019s hand,
+      ensuring a strong, non-slippery grip."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625999
+    m_Localized: Sword Fittings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403626000
+    m_Localized: The menuki or hilt ornaments under the ito wrap match the pattern
+      of the sarute (buckle), fuchi (ferrule), and tsuba (sword guard). These sword
+      fittings display the cherry blossom, a national symbol of Japan that was eventually
+      used by the military as an insignia on their weapons. The menuki under the
+      binding also features a family crest of three daimyo oak leaves within a circle.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

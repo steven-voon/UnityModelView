@@ -618,7 +618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: 'Elephant Trunk Design '
+      value: 'Elephant Trunk '
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -661,6 +661,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5104478214904409437, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104478214904409437, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104478214904409437, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104478214904409437, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.000015258789
       objectReference: {fileID: 0}
@@ -672,10 +684,18 @@ PrefabInstance:
         an opponent. Shorter keris are wielded in close-quarters combat, with every
         detail on the blade developed to give the weapon owner an advantage. '
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625986
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 7f626ef7760c9b04e9c3315d55dd1f77, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625985
+      objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Name
       value: Holder-Description-SpriteBased Variant
@@ -823,7 +843,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1312,7 +1331,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1370,7 +1388,7 @@ Transform:
   m_GameObject: {fileID: 757977920}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3, y: 0.24, z: 29.2}
+  m_LocalPosition: {x: 2.25, y: 2.4, z: 29.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1428,8 +1446,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763929517}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.05, y: 20.34, z: -2.96}
+  m_LocalRotation: {x: -0, y: -0, z: -0.1946335, w: 0.980876}
+  m_LocalPosition: {x: 18.156696, y: 6.7162094, z: -3.9599986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1606,8 +1624,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952646412}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77, y: 12.26, z: 3.23}
+  m_LocalRotation: {x: -0, y: -0, z: -0.1946335, w: 0.980876}
+  m_LocalPosition: {x: 2.797723, y: 4.3189917, z: 2.230002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1801,7 +1819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.436}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6.5150003, y: 6.342}
+  m_AnchoredPosition: {x: 6.515, y: 6.342}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1122700641
@@ -1862,7 +1880,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2020,7 +2037,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2188,6 +2204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472928644}
   - component: {fileID: 1472928645}
+  - component: {fileID: 1472928646}
   m_Layer: 0
   m_Name: KerisHolder
   m_TagString: Untagged
@@ -2203,8 +2220,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472928643}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3, y: 0.24, z: 29.2}
+  m_LocalRotation: {x: -0, y: -0, z: 0.1946335, w: 0.980876}
+  m_LocalPosition: {x: 2.25, y: 2.4, z: 29.5}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2212,7 +2229,7 @@ Transform:
   - {fileID: 763929518}
   - {fileID: 952646413}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22.447}
 --- !u!114 &1472928645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2235,14 +2252,27 @@ MonoBehaviour:
   minScale: 0.3
   maxScale: 1
   pinchSensitivity: 0.001
-  autoRotationSpeed: {x: 0, y: 5, z: 0}
+  autoRotationSpeed: {x: 0, y: 10, z: 0}
   idleWaitTime: 5
   returnSpeed: 1
   mouseSensitivity: 0.125
   touchSensitivity: 3.75
+  isRotateOnStart: 1
   mousePanSensitivity: 0.01
   touchPanSensitivity: 0.35
   doubleTapThreshold: 0.3
+--- !u!114 &1472928646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472928643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a06f76b84f1fbd46b4db99c89b1eded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationManager
 --- !u!1 &1761505997
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,32 +2422,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 1472928644}
     m_Modifications:
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0634408
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0634409
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.063441
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6
+      value: 0.8231273
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.5
+      value: -0.015460335
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.4099984
+      value: 1.410001
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8620471
+      value: 0.883429
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.45651516
+      value: -0.46783838
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.10303258
+      value: -0.012209035
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19455874
+      value: 0.023054764
       objectReference: {fileID: 0}
     - target: {fileID: 1256455529805307903, guid: 56d6b36c829c64e4aa7cf076c6b78db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2530,35 +2572,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: Silver Beak and Casque
+      value: Hilt
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 725.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 310.26
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 362.525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -233.31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3754372018492452423, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 388.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5129102295276735181, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
@@ -2569,10 +2611,18 @@ PrefabInstance:
         and sheath imply that the keris is intended for ceremonial purposes rather
         than for duelling.
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625984
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e0ac7a9062961044db4aac05961a4595, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108365877248
+      objectReference: {fileID: 0}
     - target: {fileID: 7402204551050893464, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -2615,27 +2665,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 725.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 58.18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 362.525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -29.09
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -22,22 +22,16 @@ MonoBehaviour:
   m_Scenes:
   - m_enabled: 1
     m_path: Assets/Scenes/SAS-BaliPanjang.unity
-    m_guid: 2824d180733df6a469f5bbde08127595
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/SAS-HuluPekaka.unity
-    m_guid: 52cd8f11e68966d4ba11f842abd1f64b
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/SAS-PedangJepun.unity
-    m_guid: 61367d3e73b220742a1c067d66aea987
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/SAS-PedangNaga.unity
-    m_guid: c4dbab171b670794297792ca593d97f0
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/SAS-Mindanao.unity
-    m_guid: 8bcf7249d185bfc418c98fa1f48f2e1f
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/SAS-PedangSiam.unity
-    m_guid: a0a5d9433674d3d4db51556c832807ab
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -64,7 +58,7 @@ MonoBehaviour:
         m_AdaptivePerformanceEnabled: 0
         m_BuildSubtarget: 0
         m_BuildSystem: 1
-        m_ExportAsGoogleAndroidProject: 0
+        m_ExportAsGoogleAndroidProject: 1
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
         m_CurrentDeploymentTargetId: __builtin__target_default

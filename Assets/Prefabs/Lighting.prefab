@@ -41,10 +41,10 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4292360732709337229}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2000
+  m_Intensity: 1000
   m_Range: 300
   m_SpotAngle: 134.75812
   m_InnerSpotAngle: 86.85187
@@ -93,7 +93,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -267,10 +267,10 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8209274085552608154}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2000
+  m_Intensity: 500
   m_Range: 300
   m_SpotAngle: 134.75812
   m_InnerSpotAngle: 86.85187
@@ -319,7 +319,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1

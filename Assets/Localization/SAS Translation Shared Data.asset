@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SAS Translation Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: SAS Translation
+  m_TableCollectionNameGuidString: c7ddc960816fe0640a5beb89d4b167fe
+  m_Entries:
+  - m_Id: 730108365877248
+    m_Key: hulu-pekaka-anatomy-1-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625984
+    m_Key: hulu-pekaka-anatomy-1-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625985
+    m_Key: hulu-pekaka-anatomy-2-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625986
+    m_Key: hulu-pekaka-anatomy-2-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625987
+    m_Key: keris-naga-anatomy-1-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625988
+    m_Key: keris-naga-anatomy-1-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625989
+    m_Key: keris-naga-anatomy-2-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625990
+    m_Key: keris-naga-anatomy-2-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625991
+    m_Key: keris-bali-anatomy-1-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625992
+    m_Key: keris-bali-anatomy-1-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625993
+    m_Key: keris-bali-anatomy-2-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625994
+    m_Key: keris-bali-anatomy-2-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625995
+    m_Key: keris-sundang-anatomy-1-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625996
+    m_Key: keris-sundang-anatomy-1-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625997
+    m_Key: keris-jepun-anatomy-1-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625998
+    m_Key: keris-jepun-anatomy-1-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625999
+    m_Key: keris-jepun-anatomy-2-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403626000
+    m_Key: keris-jepun-anatomy-2-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268832251904
+    m_Key: hulu-pekaka-anatomy-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268870000640
+    m_Key: hulu-pekaka-anatomy-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194944
+    m_Key: keris-naga-anatomy-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194945
+    m_Key: keris-naga-anatomy-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194946
+    m_Key: keris-bali-anatomy-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194947
+    m_Key: keris-bali-anatomy-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194948
+    m_Key: keris-sundang-anatomy-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194949
+    m_Key: keris-jepun-anatomy-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194950
+    m_Key: keris-jepun-anatomy-2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7482852051515081005
+  references:
+    version: 2
+    RefIds:
+    - rid: 7482852051515081005
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1784027427457

@@ -271,8 +271,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270778579}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.93, y: -8.58, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23760378, w: 0.9713622}
+  m_LocalPosition: {x: -18.09192, y: -0.539736, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -649,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: Lok in a keris
+      value: Lok
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -691,10 +691,18 @@ PrefabInstance:
         of the naga\u2019s head. Can you see how many lok there are on this keris?
         Remember: it should be an odd number!"
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625990
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: b24276bede8fe654f93af6bdfdabd8d4, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625989
+      objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Name
       value: Holder-Description-SpriteBased Variant
@@ -766,8 +774,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382697903}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 4.73, z: 0.23}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23760378, w: 0.9713622}
+  m_LocalPosition: {x: 2.360701, y: 3.8218303, z: 0.2300008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -873,7 +881,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1296,7 +1303,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1349,7 +1355,7 @@ Transform:
   m_GameObject: {fileID: 672491471}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.24, y: 2.79, z: 29.2}
+  m_LocalPosition: {x: 3.201, y: 2.865, z: 29.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1784,7 +1790,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1942,7 +1947,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2232,6 +2236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472928644}
   - component: {fileID: 1472928645}
+  - component: {fileID: 1472928646}
   m_Layer: 0
   m_Name: KerisHolder
   m_TagString: Untagged
@@ -2247,8 +2252,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472928643}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.24, y: 2.79, z: 29.2}
+  m_LocalRotation: {x: -0, y: -0, z: 0.23760378, w: 0.9713622}
+  m_LocalPosition: {x: 3.201, y: 2.865, z: 29.2}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2256,7 +2261,7 @@ Transform:
   - {fileID: 382697904}
   - {fileID: 270778580}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 27.49}
 --- !u!114 &1472928645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2279,14 +2284,27 @@ MonoBehaviour:
   minScale: 0.3
   maxScale: 1
   pinchSensitivity: 0.001
-  autoRotationSpeed: {x: 0, y: 5, z: 0}
+  autoRotationSpeed: {x: 0, y: 10, z: 0}
   idleWaitTime: 5
   returnSpeed: 1
   mouseSensitivity: 0.125
   touchSensitivity: 3.75
+  isRotateOnStart: 1
   mousePanSensitivity: 0.01
   touchPanSensitivity: 0.35
   doubleTapThreshold: 0.3
+--- !u!114 &1472928646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472928643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a06f76b84f1fbd46b4db99c89b1eded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationManager
 --- !u!4 &1696862057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
@@ -2384,12 +2402,24 @@ PrefabInstance:
       value: 260629-pedangnaga
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1548336
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1548336
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.154833
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2
+      value: 1.7429781
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.47
+      value: 0.4683221
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2397,19 +2427,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.42319208
+      value: 0.545894
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.36917096
+      value: -0.50168574
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6022087
+      value: -0.49724633
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5674205
+      value: 0.45061874
       objectReference: {fileID: 0}
     - target: {fileID: 6708085131077342398, guid: 49e2e78a7008be943b761717749a4101, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2518,7 +2548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: The Naga
+      value: Akut
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2555,6 +2585,14 @@ PrefabInstance:
         in wayang puppetry plays, and even decorating everyday objects such as the
         betel nut cutter. The serpent often appears with a pointed crown atop its
         head, signifying its special position.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625987
       objectReference: {fileID: 0}
     - target: {fileID: 7402204551050893464, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Pivot.x

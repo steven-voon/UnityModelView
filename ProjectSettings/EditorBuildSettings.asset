@@ -24,5 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SAS-PedangSiam.unity
     guid: a0a5d9433674d3d4db51556c832807ab
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: bef8aceae18058644a820a3c550f799e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 4954ad847b665cf46a67bc3f05ef3eb2, type: 2}
   m_UseUCBPForAssetBundles: 0

@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000004, guid: fd3bba728fdbe854da03fe51cb471a1e, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -290,8 +290,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102590133}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.35, y: 12.88, z: -0.14}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23258102, w: 0.9725771}
+  m_LocalPosition: {x: 13.772015, y: -1.1817213, z: -0.13999937}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -943,7 +943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: 'The Menuki '
+      value: Sword Fittings
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -998,10 +998,18 @@ PrefabInstance:
         under the binding also features a family crest of three daimyo oak leaves
         within a circle.
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403626000
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: b6d2fb34c1cdb7242bea9afc8f3e27b1, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625999
+      objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Name
       value: Holder-Description-SpriteBased Variant
@@ -1176,7 +1184,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1309,7 +1316,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1756,7 +1762,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1812,8 +1817,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606958152}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.4, y: 16.31, z: 0.06}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23258102, w: 0.9725771}
+  m_LocalPosition: {x: 19.827417, y: -0.407456, z: 0.059998825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2033,7 +2038,7 @@ Transform:
   m_GameObject: {fileID: 723240574}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.21, y: 0.2, z: 29.2}
+  m_LocalPosition: {x: 2.27, y: 2.511, z: 29.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2238,8 +2243,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836338600}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.51, y: 13.55, z: -0.17}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23258102, w: 0.9725771}
+  m_LocalPosition: {x: 8.866941, y: 2.0578427, z: -0.17000197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2335,7 +2340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: 'The Menuki '
+      value: Sword Fittings
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2406,10 +2411,18 @@ PrefabInstance:
         under the binding also features a family crest of three daimyo oak leaves
         within a circle.
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403626000
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6480623480f415d45829dea29a9e7284, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625999
+      objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Name
       value: Holder-Description-SpriteBased Variant
@@ -2720,7 +2733,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2878,7 +2890,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3221,7 +3232,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3384,6 +3394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472928644}
   - component: {fileID: 1472928645}
+  - component: {fileID: 1472928646}
   m_Layer: 0
   m_Name: KerisHolder
   m_TagString: Untagged
@@ -3399,8 +3410,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472928643}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.21, y: 0.2, z: 29.2}
+  m_LocalRotation: {x: -0, y: -0, z: 0.23258102, w: 0.9725771}
+  m_LocalPosition: {x: 2.27, y: 2.511, z: 29.2}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3410,7 +3421,7 @@ Transform:
   - {fileID: 102590134}
   - {fileID: 1703654099}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 26.898}
 --- !u!114 &1472928645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3433,14 +3444,27 @@ MonoBehaviour:
   minScale: 0.3
   maxScale: 1
   pinchSensitivity: 0.001
-  autoRotationSpeed: {x: 0, y: 5, z: 0}
+  autoRotationSpeed: {x: 0, y: 10, z: 0}
   idleWaitTime: 5
   returnSpeed: 1
   mouseSensitivity: 0.125
   touchSensitivity: 3.75
+  isRotateOnStart: 1
   mousePanSensitivity: 0.01
   touchPanSensitivity: 0.35
   doubleTapThreshold: 0.3
+--- !u!114 &1472928646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472928643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a06f76b84f1fbd46b4db99c89b1eded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationManager
 --- !u!1 &1480713314
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,7 +3700,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3772,7 +3795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: 'The Menuki '
+      value: Sword Fittings
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3835,10 +3858,18 @@ PrefabInstance:
         under the binding also features a family crest of three daimyo oak leaves
         within a circle.
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403626000
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a2b8a2710d85c9142ab828af310b6143, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625999
+      objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Name
       value: Holder-Description-SpriteBased Variant
@@ -3966,8 +3997,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703654098}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.72, y: 7.67, z: -0.291}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23258102, w: 0.9725771}
+  m_LocalPosition: {x: 4.6104527, y: -2.3762052, z: -0.2909978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4179,7 +4210,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -4444,7 +4474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: White Same-gawa Hilt
+      value: Hilt
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4534,10 +4564,18 @@ PrefabInstance:
         traditional double wrapping provides a rough pattern for the user\u2019s
         hand, ensuring a strong, non-slippery grip."
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625998
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 933e5f31af4cebe4da571281daf30e89, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625997
+      objectReference: {fileID: 0}
     - target: {fileID: 7402204551050893464, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -4632,12 +4670,24 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2459924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2459927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.2459924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.6
+      value: -6.0578675
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 47.8
+      value: 48.033974
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4645,19 +4695,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6854098
+      value: -0.7070411
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6854098
+      value: 0.7070411
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.1738202
+      value: 0.009640231
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.1738202
+      value: -0.009640231
       objectReference: {fileID: 0}
     - target: {fileID: 7848881488655641132, guid: 83f6955b1a178b74b94ced6f2d85ba9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

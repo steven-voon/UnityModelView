@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 1.0592736, g: 1.0592736, b: 1.0592736, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.8
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 59c57b0ec74c44f4bb6755b2aa1a1961, type: 2}
@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -486,7 +487,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 215
+    m_Bits: 471
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -538,7 +539,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -559,6 +560,23 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 4e606fa6a6c3d6e43be5fe6d7375a672, type: 2}
 --- !u!1001 &375826118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -649,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: Batara Bayu
+      value: Hilt
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
@@ -701,6 +719,10 @@ PrefabInstance:
         and the vessel that he carries in his right hand. The multicoloured gemstones
         adorning the deity serve to elevate his position and match the stones decorating
         the full length of the sheath.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625992
       objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
@@ -853,7 +875,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1276,7 +1297,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1709,7 +1729,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1867,7 +1886,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2090,6 +2108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472928644}
   - component: {fileID: 1472928645}
+  - component: {fileID: 1472928646}
   m_Layer: 0
   m_Name: KerisHolder
   m_TagString: Untagged
@@ -2137,14 +2156,27 @@ MonoBehaviour:
   minScale: 0.3
   maxScale: 1
   pinchSensitivity: 0.001
-  autoRotationSpeed: {x: 0, y: 5, z: 0}
+  autoRotationSpeed: {x: 0, y: 10, z: 0}
   idleWaitTime: 5
   returnSpeed: 1
   mouseSensitivity: 0.125
   touchSensitivity: 3.75
+  isRotateOnStart: 1
   mousePanSensitivity: 0.01
   touchPanSensitivity: 0.35
   doubleTapThreshold: 0.3
+--- !u!114 &1472928646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472928643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a06f76b84f1fbd46b4db99c89b1eded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationManager
 --- !u!1 &1761505997
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,7 +2313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6996477020396622542, guid: c189441689658dd419301ebc1a888cd5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6996477020396622542, guid: c189441689658dd419301ebc1a888cd5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2377,6 +2409,14 @@ PrefabInstance:
       value: Lighting
       objectReference: {fileID: 0}
     - target: {fileID: 7641480272465226991, guid: 699d86c3798e92e40bb20e9990b216b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126482420864163031, guid: 699d86c3798e92e40bb20e9990b216b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209274085552608154, guid: 699d86c3798e92e40bb20e9990b216b0, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -2480,35 +2520,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 623968998981083323, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_text
-      value: The Sampir
+      value: Sampir
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 725.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 310.26
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 362.525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -233.31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3754372018492452423, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 388.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5104478214904409437, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2551,10 +2591,18 @@ PrefabInstance:
         use of ivory for the sampir makes this elaborate scene showcasing multiple
         figures even more prominent.
       objectReference: {fileID: 0}
+    - target: {fileID: 5130739592938330540, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625994
+      objectReference: {fileID: 0}
     - target: {fileID: 5250836224732091346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: eede29903c85cab48aefb652dec1e43f, type: 3}
+    - target: {fileID: 6699714281373405346, guid: f882436c0e514f04392b44e2762adb32, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 730108403625993
+      objectReference: {fileID: 0}
     - target: {fileID: 7402204551050893464, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -2593,31 +2641,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 725.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 58.18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 362.525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -29.09
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

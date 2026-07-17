@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SAS Translation_ms
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: c7ddc960816fe0640a5beb89d4b167fe, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1268832251904
+    m_Localized: "Bahagian pangkal pada hulu keris yang dikenali sebagai \u201Cbuah
+      pinang\u201D dipasangkan dengan pendokok emas bagi menyambungkan pangkal hulu
+      keris dengan pangkal bilah mata keris. Bahagian paruh dan balung di kepala
+      burung pekaka pula diperbuat daripada perak. Penggunaan logam berharga pada
+      hulu dan sarung menunjukkan bahawa keris ini kurang digunakan dalam pertarungan
+      dan lebih digunakan dengan pakaian kebesaran."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268870000640
+    m_Localized: Akut belalai gajah mempunyai nilai estetika serta amat berguna dalam
+      seni pertikaman. Bahagian tajam di atas dan bawah belalai gajah tersebut boleh
+      digunakan untuk mencederakan lawan. Keris yang pendek sebegini biasanya digunakan
+      dalam pertarungan jarak dekat; oleh itu, setiap elemen pada bilah direka untuk
+      memberikan kelebihan kepada pemilik senjata tersebut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194944
+    m_Localized: Dalam tradisi Indonesia, naga digambarkan sebagai penguasa alam
+      kubur serta pembawa kesuburan. Motif naga ini dapat dilihat sebagai hiasan
+      pada alat muzik gamelan serta objek harian seperti kacip pinang. Ia juga ditampilkan
+      sebagai watak yang muncul dalam pementasan wayang kulit. Figura ini sering
+      digambarkan dengan sebuah mahkota di atas kepalanya yang menandakan kedudukannya
+      yang istimewa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194945
+    m_Localized: 'Menurut sejarah, jumlah lok melambangkan kedudukan pemilik keris,
+      sama ada pemiliknya terdiri daripada golongan rakyat biasa, pahlawan, atau
+      pemerintah. Untuk mengira lok, mulakan dengan lok pertama di sisi yang bertentangan
+      dengan kepala naga. Bolehkah anda mengenal pasti berapa jumlah lok pada keris
+      ini? Ingat: bilangannya mestilah ganjil!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194946
+    m_Localized: Batara Bayu dapat dikenali melalui senyumannya yang lebar, hiasan
+      kepalanya yang bertatahkan permata, serta bekas yang dibawanya di tangan kanan.
+      Batu berwarna-warni yang menghiasi figura dewa ini menampilkan kedudukannya
+      yang tinggi. Batu permata tersebut juga sepadan dengan batu permata yang dilihat
+      di keseluruhan sarung, di bahagian batang serunai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194947
+    m_Localized: Bahagian sampir iaitu bahagian melintang pada pangkal sarung keris
+      menampilkan Bhoma, dengan wajahnya yang garang, mata terbeliak, dan mulut ternganga.
+      Secara tradisinya, Bhoma digambarkan di atas pintu masuk kuil Hindu di Bali
+      sebagai lambang perlindungan dan penyucian. Penggunaan material gading membuatkan
+      adegan yang digambarkan di sampir ini lebih menyerlah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194948
+    m_Localized: Secara tradisi, hulu sundang diperbuat daripada kayu keras dan dibalut
+      dengan gentian semula jadi seperti jut. Hulu keris sundang ini, dengan bentuknya
+      yang panjang, hiasan burung kakaktua yang besar, dan salutan logam, menandakan
+      bahawa pemilik asalnya berkemungkinan terdiri daripada golongan atasan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194949
+    m_Localized: Hulu pedang ini disaluti dengan same-gawa (kulit pari yang telah
+      dikeringkan) serta dibalut dengan ito (tali anyaman). Ini menghasilkan corak
+      yang memperlihatkan tekstur kulit pari di bawahnya. Balutan berganda tradisional
+      ini membuatkan permukaan hulu lebih kasar untuk memastikan genggaman yang kuat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1268874194950
+    m_Localized: "Menuki atau ornamen di bawah lilitan ito ini sepadan dengan corak
+      sarute (gancu), fuchi (kolar yang mengapit bilah dari hulu), dan tsuba (besi
+      pelindung antara bilah dan hulu). Kelengkapan pedang ini menampilkan motif
+      bunga sakura, iaitu lambang kebangsaan Jepun yang kemudiannya digunakan oleh
+      pihak tentera sebagai insignia mereka. Menuki ini juga menampilkan lambang
+      keluarga berupa tiga daun daripada pokok daimy\u014D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108365877248
+    m_Localized: Hulu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625984
+    m_Localized: "Bahagian pangkal pada hulu keris yang dikenali sebagai \u201Cbuah
+      pinang\u201D dipasangkan dengan pendokok emas bagi menyambungkan pangkal hulu
+      keris dengan pangkal bilah mata keris. Bahagian paruh dan balung di kepala
+      burung pekaka pula diperbuat daripada perak. Penggunaan logam berharga pada
+      hulu dan sarung menunjukkan bahawa keris ini kurang digunakan dalam pertarungan
+      dan lebih digunakan dengan pakaian kebesaran."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625985
+    m_Localized: Belalai Gajah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625986
+    m_Localized: Akut belalai gajah mempunyai nilai estetika serta amat berguna dalam
+      seni pertikaman. Bahagian tajam di atas dan bawah belalai gajah tersebut boleh
+      digunakan untuk mencederakan lawan. Keris yang pendek sebegini biasanya digunakan
+      dalam pertarungan jarak dekat; oleh itu, setiap elemen pada bilah direka untuk
+      memberikan kelebihan kepada pemilik senjata tersebut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625987
+    m_Localized: Akut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625988
+    m_Localized: Dalam tradisi Indonesia, naga digambarkan sebagai penguasa alam
+      kubur serta pembawa kesuburan. Motif naga ini dapat dilihat sebagai hiasan
+      pada alat muzik gamelan serta objek harian seperti kacip pinang. Ia juga ditampilkan
+      sebagai watak yang muncul dalam pementasan wayang kulit. Figura ini sering
+      digambarkan dengan sebuah mahkota di atas kepalanya yang menandakan kedudukannya
+      yang istimewa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625989
+    m_Localized: Lok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625990
+    m_Localized: 'Menurut sejarah, jumlah lok melambangkan kedudukan pemilik keris,
+      sama ada pemiliknya terdiri daripada golongan rakyat biasa, pahlawan, atau
+      pemerintah. Untuk mengira lok, mulakan dengan lok pertama di sisi yang bertentangan
+      dengan kepala naga. Bolehkah anda mengenal pasti berapa jumlah lok pada keris
+      ini? Ingat: bilangannya mestilah ganjil!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625991
+    m_Localized: Hulu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625992
+    m_Localized: Batara Bayu dapat dikenali melalui senyumannya yang lebar, hiasan
+      kepalanya yang bertatahkan permata, serta bekas yang dibawanya di tangan kanan.
+      Batu berwarna-warni yang menghiasi figura dewa ini menampilkan kedudukannya
+      yang tinggi. Batu permata tersebut juga sepadan dengan batu permata yang dilihat
+      di keseluruhan sarung, di bahagian batang serunai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625993
+    m_Localized: Sampir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625994
+    m_Localized: Bahagian sampir iaitu bahagian melintang pada pangkal sarung keris
+      menampilkan Bhoma, dengan wajahnya yang garang, mata terbeliak, dan mulut ternganga.
+      Secara tradisinya, Bhoma digambarkan di atas pintu masuk kuil Hindu di Bali
+      sebagai lambang perlindungan dan penyucian. Penggunaan material gading membuatkan
+      adegan yang digambarkan di sampir ini lebih menyerlah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625995
+    m_Localized: Hulu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625996
+    m_Localized: Secara tradisi, hulu sundang diperbuat daripada kayu keras dan dibalut
+      dengan gentian semula jadi seperti jut. Hulu keris sundang ini, dengan bentuknya
+      yang panjang, hiasan burung kakaktua yang besar, dan salutan logam, menandakan
+      bahawa pemilik asalnya berkemungkinan terdiri daripada golongan atasan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625997
+    m_Localized: Hulu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625998
+    m_Localized: Hulu pedang ini disaluti dengan same-gawa (kulit pari yang telah
+      dikeringkan) serta dibalut dengan ito (tali anyaman). Ini menghasilkan corak
+      yang memperlihatkan tekstur kulit pari di bawahnya. Balutan berganda tradisional
+      ini membuatkan permukaan hulu lebih kasar untuk memastikan genggaman yang kuat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403625999
+    m_Localized: Kelengkapan Pedang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730108403626000
+    m_Localized: "Menuki atau ornamen di bawah lilitan ito ini sepadan dengan corak
+      sarute (gancu), fuchi (kolar yang mengapit bilah dari hulu), dan tsuba (besi
+      pelindung antara bilah dan hulu). Kelengkapan pedang ini menampilkan motif
+      bunga sakura, iaitu lambang kebangsaan Jepun yang kemudiannya digunakan oleh
+      pihak tentera sebagai insignia mereka. Menuki ini juga menampilkan lambang
+      keluarga berupa tiga daun daripada pokok daimy\u014D."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
