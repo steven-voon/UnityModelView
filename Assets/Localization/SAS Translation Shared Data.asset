@@ -15,6 +15,10 @@ MonoBehaviour:
   m_TableCollectionName: SAS Translation
   m_TableCollectionNameGuidString: c7ddc960816fe0640a5beb89d4b167fe
   m_Entries:
+  - m_Id: 2054997899194368
+    m_Key: tap-to-close-instruction
+    m_Metadata:
+      m_Items: []
   - m_Id: 730108365877248
     m_Key: hulu-pekaka-anatomy-1-title
     m_Metadata:

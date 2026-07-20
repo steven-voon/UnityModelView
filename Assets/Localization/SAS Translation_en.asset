@@ -202,6 +202,10 @@ MonoBehaviour:
       binding also features a family crest of three daimyo oak leaves within a circle.
     m_Metadata:
       m_Items: []
+  - m_Id: 2054997899194368
+    m_Localized: Tap to Close
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

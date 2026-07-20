@@ -945,6 +945,7 @@ GameObject:
   - component: {fileID: 494300541}
   - component: {fileID: 494300543}
   - component: {fileID: 494300542}
+  - component: {fileID: 494300544}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1071,6 +1072,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494300540}
   m_CullTransparentMesh: 1
+--- !u!114 &494300544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494300540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:c7ddc960816fe0640a5beb89d4b167fe
+    m_TableEntryReference:
+      m_KeyId: 2054997899194368
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 494300542}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &526058884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1380,7 @@ GameObject:
   - component: {fileID: 821969342}
   - component: {fileID: 821969344}
   - component: {fileID: 821969343}
+  - component: {fileID: 821969345}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1465,6 +1507,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821969341}
   m_CullTransparentMesh: 1
+--- !u!114 &821969345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821969341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:c7ddc960816fe0640a5beb89d4b167fe
+    m_TableEntryReference:
+      m_KeyId: 2054997899194368
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 821969343}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!224 &828186613 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 221562567577037518, guid: f882436c0e514f04392b44e2762adb32, type: 3}
@@ -2524,31 +2606,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 725.05
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 310.26
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 362.525
       objectReference: {fileID: 0}
     - target: {fileID: 1143703002869831393, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -232.74
       objectReference: {fileID: 0}
     - target: {fileID: 3754372018492452423, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 387.87
       objectReference: {fileID: 0}
     - target: {fileID: 5104478214904409437, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2641,31 +2723,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7419348697628624710, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 725.05
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 57.61
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 362.525
       objectReference: {fileID: 0}
     - target: {fileID: 9033803372539239807, guid: f882436c0e514f04392b44e2762adb32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -28.805
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
