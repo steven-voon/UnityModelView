@@ -68,5 +68,4 @@ public class LocalizationManager : MonoBehaviour
     {
         ChangeLanguage("en");
     }
-
 }

@@ -1706,6 +1706,67 @@ MonoBehaviour:
   infoPanel: {fileID: 689625013}
   closeInstruction: {fileID: 494300540}
   leadingLine: {fileID: 1466067449}
+--- !u!1001 &1034808002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.62832
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.86719
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.18001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4755712
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.87967724
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478670094278567863, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 123.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911095140571729146, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_Name
+      value: ShimmeringFX V2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911095140571729146, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec9171ff73d5f6243a6dd85786421624, type: 3}
 --- !u!4 &1090801785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8049470914438332891, guid: b34658d64dffba14aadb8aebd956491a, type: 3}
@@ -2247,6 +2308,7 @@ MonoBehaviour:
   mousePanSensitivity: 0.01
   touchPanSensitivity: 0.35
   doubleTapThreshold: 0.3
+  rotateEndlessly: 1
 --- !u!114 &1472928646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2852,3 +2914,4 @@ SceneRoots:
   - {fileID: 1122700640}
   - {fileID: 414818763}
   - {fileID: 1174495958}
+  - {fileID: 1034808002}

@@ -52,6 +52,11 @@ public class ObjectTransfromer : MonoBehaviour
     private Vector3 panVelocity;
     private float cachedDpiFactor; // OPTIMIZATION: Caches native OS query result
 
+
+    public bool rotateEndlessly = true;
+    private float currentRotation = 0f;
+    private bool isRotating = true;
+
     private void Start()
     {
         mainCamera = Camera.main;
@@ -119,7 +124,27 @@ public class ObjectTransfromer : MonoBehaviour
             {
                 if (isAutoRotating)
                 {
-                    transform.Rotate(Vector3.right * autoRotationSpeed.y * Time.deltaTime, Space.Self);
+                    float step = autoRotationSpeed.y * Time.deltaTime;
+
+                    if (rotateEndlessly)
+                    {
+                        transform.Rotate(Vector3.right * step, Space.Self);
+                        return;
+                    }
+
+                    if (currentRotation + step >= 360f)
+                    {
+                        float remaining = 360f - currentRotation;
+                        transform.Rotate(Vector3.right * remaining, Space.Self);
+
+                        currentRotation = 360f;
+                    }
+                    else
+                    {
+                        transform.Rotate(Vector3.right * step, Space.Self);
+                        currentRotation += step;
+                    }
+
                 }
                 else
                 {
