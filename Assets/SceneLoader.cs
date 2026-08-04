@@ -8,7 +8,10 @@ using UnityEngine.SceneManagement;
 // it survives every scene change via DontDestroyOnLoad.
 public class SceneLoader : MonoBehaviour
 {
+    [SerializeField] private float userActivityReportInterval = 0.75f;
+
     private static SceneLoader instance;
+    private float lastUserActivityReportTime = float.NegativeInfinity;
 
     private void Awake()
     {
@@ -28,12 +31,37 @@ public class SceneLoader : MonoBehaviour
         SendToRN("ready");
     }
 
+    private void Update()
+    {
+        if (!HasUserInput()) return;
+
+        if (Time.unscaledTime - lastUserActivityReportTime < userActivityReportInterval)
+        {
+            return;
+        }
+
+        lastUserActivityReportTime = Time.unscaledTime;
+        SendToRN("user_activity");
+    }
+
     // Called from React Native via UnitySendMessage.
     public void LoadScene(string sceneId)
     {
         Debug.Log($"[SceneLoader] Loading scene: {sceneId}");
         if (SceneManager.GetActiveScene().name == sceneId) return;
         SceneManager.LoadSceneAsync(sceneId);
+    }
+
+    private static bool HasUserInput()
+    {
+#if UNITY_EDITOR
+        return Input.GetMouseButton(0) ||
+               Input.GetMouseButton(1) ||
+               Input.anyKeyDown ||
+               Mathf.Abs(Input.GetAxisRaw("Mouse ScrollWheel")) > 0.001f;
+#else
+        return Input.touchCount > 0 || Input.anyKeyDown;
+#endif
     }
 
     private static void SendToRN(string message)
