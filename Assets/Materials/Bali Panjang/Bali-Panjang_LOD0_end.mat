@@ -42,7 +42,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - baseColorTexture:
-        m_Texture: {fileID: 2800000, guid: 8a7c4ebd177e1a54c9ce9fbc9c206c10, type: 3}
+        m_Texture: {fileID: 2800000, guid: 18fe97ef1ee845741a82b7b6ea0f93ba, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - emissiveTexture:
@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - occlusionTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a2d4f7ab70894024abffe4ffb1a056bf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - transmissionTexture:
@@ -95,7 +95,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 0
     - _CastShadows: 0
-    - _Cull: 2
+    - _Cull: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _QueueControl: 1
@@ -112,16 +112,16 @@ Material:
     - baseColorTexture_texCoord: 0
     - emissiveExposureWeight: 0
     - emissiveTexture_texCoord: 0
-    - metallicFactor: 0.4
+    - metallicFactor: 0.283
     - metallicRoughnessTexture_texCoord: 0
-    - normalTexture_scale: 1
+    - normalTexture_scale: 0.165
     - normalTexture_texCoord: 0
     - occlusionTexture_strength: 1
     - occlusionTexture_texCoord: 0
     - roughnessFactor: 1
     - transmissionFactor: 0
     m_Colors:
-    - baseColorFactor: {r: 1, g: 0.9843137, b: 0.93333334, a: 1}
+    - baseColorFactor: {r: 1, g: 1, b: 1, a: 1}
     - baseColorTexture_Rotation: {r: 0, g: 0, b: 0, a: 0}
     - emissiveFactor: {r: 0, g: 0, b: 0, a: 1}
     - emissiveTexture_Rotation: {r: 0, g: 0, b: 0, a: 0}
