@@ -4,12 +4,30 @@ using UnityEngine.Localization;
 using System.Collections;
 using NaughtyAttributes;
 
+// RN bridge: postMessage("LocalizationManager", "ChangeLanguage", localeCode)
 public class LocalizationManager : MonoBehaviour
 {
+    private static LocalizationManager instance;
+
     private bool isChanging = false;
 
+    private void Awake()
+    {
+        // Only the dedicated bridge object persists; per-scene KerisHolder instances stay local.
+        if (gameObject.name != "LocalizationManager") return;
+
+        if (instance != null)
+        {
+            Destroy(this);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     /// <summary>
-    /// Changes the game language to the specified locale code (e.g., "en", "my").
+    /// Changes the game language to the specified locale code (e.g., "en", "ms").
+    /// Called from React Native via UnitySendMessage.
     /// </summary>
     public void ChangeLanguage(string localeCode)
     {
